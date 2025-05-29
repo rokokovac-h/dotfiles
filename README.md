@@ -1,3 +1,7 @@
 # dotfiles
 
-To apply, run `stow -t ~ [name]`
+To apply, run stow 
+
+```bash
+stow -t ~ [name]
+```
