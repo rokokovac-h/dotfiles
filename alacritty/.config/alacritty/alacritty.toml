@@ -1,0 +1,54 @@
+# Font configuration
+[font]
+normal = { family = "JetBrainsMono", style = "Regular" }
+bold = { family = "JetBrainsMono", style = "Bold" }
+italic = { family = "JetBrainsMono", style = "Italic" }
+bold_italic = { family = "JetBrainsMono", style = "Bold Italic" }
+size = 12.0
+
+# Colors (JetBrains IDE)
+[colors]
+primary = { background = "#1e1e1e", foreground = "#a9b7c6" }
+cursor = { text = "#1e1e1e", cursor = "#a9b7c6" }
+
+[colors.normal]
+black = "#1e1e1e"
+red = "#ff6b68"
+green = "#a8c023"
+yellow = "#ffc66d"
+blue = "#6a8759"
+magenta = "#9876aa"
+cyan = "#6897bb"
+white = "#a9b7c6"
+
+[colors.bright]
+black = "#323232"
+red = "#ff6b68"
+green = "#a8c023"
+yellow = "#ffc66d"
+blue = "#6a8759"
+magenta = "#9876aa"
+cyan = "#6897bb"
+white = "#ffffff"
+
+# Cursor configuration
+[cursor]
+style = { shape = "Block", blinking = "On" }
+vi_mode_style = { shape = "Block", blinking = "On" }
+blink_interval = 750
+unfocused_hollow = true
+
+# Mouse configuration
+[mouse]
+hide_when_typing = false
+
+# Selection configuration
+[selection]
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+save_to_clipboard = true
+
+# Terminal bell configuration
+[bell]
+animation = "Ease"
+duration = 0
+color = "#ffffff"
