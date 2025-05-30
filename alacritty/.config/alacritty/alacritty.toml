@@ -52,3 +52,7 @@ save_to_clipboard = true
 animation = "Ease"
 duration = 0
 color = "#ffffff"
+
+# Window configuration
+[window]
+padding = { x = 10, y = 10 }
