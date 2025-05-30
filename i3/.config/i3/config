@@ -213,3 +213,8 @@ gaps outer 0
 
 # bind PrintSc to flameshotRR
 bindsym Print exec --no-startup-id flameshot gui
+
+
+# Remove window borders
+default_border none
+default_floating_border none
