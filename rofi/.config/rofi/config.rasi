@@ -1,0 +1,88 @@
+* {
+    bg: #1e1e1e;
+    bg-alt: #2b2b2b;
+    fg: #a9b7c6;
+    fg-alt: #787878;
+    
+    border: 0;
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+    
+    font: "JetBrainsMono 24";
+}
+
+window {
+    width: 45%;
+    location: center;
+    anchor: center;
+    y-offset: 0;
+    x-offset: 0;
+    background-color: @bg;
+    border-radius: 12px;
+}
+
+element {
+    padding: 16 20;
+    background-color: transparent;
+    text-color: @fg;
+}
+
+element selected {
+    text-color: @fg;
+    background-color: @bg-alt;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+    vertical-align: 0.5;
+}
+
+element-icon {
+    size: 48;
+    padding: 0 16 0 0;
+    background-color: transparent;
+}
+
+entry {
+    padding: 20;
+    background-color: @bg-alt;
+    text-color: @fg;
+}
+
+inputbar {
+    children: [entry];
+    background-color: @bg;
+}
+
+listview {
+    background-color: @bg;
+    columns: 1;
+    lines: 8;
+    spacing: 8px;
+}
+
+mainbox {
+    children: [inputbar, listview];
+    background-color: @bg;
+}
+
+prompt {
+    enabled: true;
+    padding: 20 0 0 20;
+    background-color: @bg-alt;
+    text-color: @fg;
+}
+
+textbox {
+    padding: 20 0 0 20;
+    background-color: @bg-alt;
+    text-color: @fg;
+}
+
+error-message {
+    padding: 20;
+    background-color: @bg;
+    text-color: #ff6b68;
+} 
