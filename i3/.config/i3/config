@@ -68,7 +68,9 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+q kill
 
 # start rofi
-bindsym $mod+d exec "rofi -modi 'drun,run,filebrowser' -show drun -theme ~/.config/rofi/config.rasi -show-icons"
+bindsym $mod+d exec "rofi -modi 'drun' -show drun -theme ~/.config/rofi/config.rasi -show-icons"
+# window switcher
+bindsym $mod+Tab exec "rofi -modi window -show window -theme ~/.config/rofi/config.rasi -show-icons"
 
 # change focus
 bindsym $mod+j focus left
