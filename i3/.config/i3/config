@@ -207,3 +207,17 @@ exec_always --no-startup-id feh --bg-scale /usr/share/backgrounds/linuxmint/defa
 bindsym Print exec --no-startup-id flameshot gui
 bindsym Ctrl+Print exec --no-startup-id peek
 
+for_window [class="Gpick"] floating enable
+
+# Monitor configuration
+
+exec_always --no-startup-id xrandr \
+  --output DP-2 --primary --gamma 1.2:1.2:1.2 --mode 3840x2160 --rate 240 \
+  --output HDMI-0 --auto --mode 3840x2160 --right-of DP-2
+
+workspace 1 output DP-2
+workspace 2 output DP-2
+workspace 3 output DP-2
+workspace 4 output HDMI-0
+workspace 5 output HDMI-0
+workspace 6 output HDMI-0
