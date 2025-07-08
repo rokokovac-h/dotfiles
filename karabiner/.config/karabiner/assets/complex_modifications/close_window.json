@@ -1,0 +1,26 @@
+{
+  "title": "Close window with Option+Shift+Q",
+  "rules": [
+    {
+      "description": "Map Option+Shift+Q to Command+W (Close Window)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "q",
+            "modifiers": {
+              "mandatory": ["option", "shift"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "q",
+              "modifiers": ["command"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
