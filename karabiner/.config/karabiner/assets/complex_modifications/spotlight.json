@@ -1,0 +1,25 @@
+{
+  "title": "Option D to Spotlight",
+  "rules": [
+    {
+      "description": "Open Spotlight with Option + D",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "d",
+            "modifiers": {
+              "mandatory": ["option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "spacebar",
+              "modifiers": ["left_command"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
