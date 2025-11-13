@@ -1,24 +1,18 @@
 {
-  "title": "Cmd+Shift+X -> PrintScreen",
+  "title": "PrintScreen -> Cmd+Shift+X",
   "rules": [
     {
-      "description": "Bind Cmd + Shift + X to Print Screen",
+      "description": "Pressing Print Screen sends Cmd+Shift+X",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "x",
-            "modifiers": {
-              "mandatory": [
-                "left_command",
-                "left_shift"
-              ],
-              "optional": ["any"]
-            }
+            "key_code": "print_screen"
           },
           "to": [
             {
-              "key_code": "print_screen"
+              "key_code": "x",
+              "modifiers": ["command", "shift"]
             }
           ]
         }
