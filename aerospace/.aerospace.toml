@@ -110,6 +110,11 @@ automatically-unhide-macos-hidden-apps = false
 
     alt-w = 'close'
 
+    # See: https://nikitabobko.github.io/AeroSpace/commands#exec-and-forget
+    # You can uncomment the following lines to open up terminal with alt + enter shortcut
+    # (like in i3)
+    alt-enter = 'exec-and-forget alacritty msg create-window'
+
 
 # 'service' binding mode declaration.
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
